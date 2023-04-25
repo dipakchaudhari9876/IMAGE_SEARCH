@@ -1,0 +1,33 @@
+.bookmark_display{
+    width: 98%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.bookmark_top{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.bookmark_top button{
+    padding: 5px 13px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.bookmark h1{
+    text-align: center;
+}
+
+.error{
+    text-align: center;
+    color:red;
+    font-size: 15px;
+}
